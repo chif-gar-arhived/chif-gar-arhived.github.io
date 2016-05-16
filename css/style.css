@@ -1,0 +1,150 @@
+/*---*/
+
+
+/*--body--*/
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 100%;
+	background-color: #0a0a0a;
+	color: white;
+}
+
+h1 {
+	color: #F7B62F;
+}
+
+img {
+	max-width: 100%;
+}
+
+.content {
+	margin: 0 60px 0 60px;
+}
+
+/*---*/
+
+
+/*--links--*/
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a:focus {
+    outline: medium none;
+
+}
+
+a:link {
+	color: #336699;
+    border-color: #a4bcd5;
+}
+
+a:visited {
+	color: #336699;
+    border-color: #a4bcd5;
+}
+
+a:hover {
+	color: #CC0000;
+	border-color: #e39e9e;
+}
+
+/*a.item-selected {
+	color: black;
+	text-decoration: none;
+	border-bottom: none;
+}*/
+
+img {vertical-align: middle; /*removes the underline under the image as a link*/}
+
+a.transparent-img {
+	border-bottom: 0; /*removes the underline under the image as a link with transparent background*/
+}
+
+/*---*/
+
+
+/*--header--*/
+
+div.top-frame {
+	width: 100%;
+	height: 200px;
+	background-color: #2a2a2a;
+}
+
+div.logo {
+	padding: 56px 0 0 0;
+	width: 100%;
+	max-width: 864px; 
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+img.logo {
+	min-width: 360px;
+}
+
+/*---*/
+
+
+/*--best-links--*/
+
+div.title {
+	margin-top: 20px;
+}
+
+div.title h1 {  
+	font-size: 150%;
+	color: grey;
+	text-align: center; /*надо другой путь, чтобы было на какой именно загаловок указывает, а не просто эйч1*/
+}
+
+div.column-list {
+	margin-top: 20px;
+	background-color: red;
+}
+
+/*---*/
+
+
+/*-post-*/
+
+div.post h1, 
+div.post h2, 
+div.post div.text p {
+	width: 100%;
+	max-width: 750px; /*sets all except images*/
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+h1.title-post {
+	font-size: 270%;
+}
+
+h2.date {
+	margin-top: 30px;
+	color: grey;
+}
+
+div.text {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+div.text p {
+	font-size: 125%;
+	line-height: 125%;
+}
+
+.hanging {
+	margin-left: -0.5em; /*hanging punctuation*/	
+}
+
+/*---*/
