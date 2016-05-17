@@ -132,22 +132,30 @@ div.column-list {
 
 /*-post-*/
 
-div.post h1, 
-div.post h2, 
-div.post div.text p {
+div.content div.post h1, 
+div.content div.post h2, 
+div.content div.post div.text p {
 	width: 100%;
 	max-width: 750px; /*sets all except images*/
 	font-weight: normal;
 	margin-left: auto;
 	margin-right: auto;
+	color: black;
 }
+
+div.img-post {
+	margin: auto;
+	margin-bottom: 500px;
+	width: 100%;
+	max-width: 600px;
+} 
 
 
 h1.title-post {
 	font-size: 470%;
 }
 
-h2.date {
+div.post h2.date {
 	margin-top: 30px;
 	color: grey;
 }
