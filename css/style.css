@@ -110,7 +110,8 @@ section.slides div {
 }
 
 section.describe,
-section.news {
+section.news,
+section.content {
 	width: 100%;
 	max-width: 650px;
 	font-size: 22px;
