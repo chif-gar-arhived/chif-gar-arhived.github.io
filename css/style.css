@@ -74,6 +74,7 @@ div.logo figure {
 
 nav.main-menu {
 	text-align: center;
+	min-width: 530px;
 }
 
 nav.main-menu ul {
@@ -91,8 +92,8 @@ nav.main-menu ul {
     display: block;
     padding: 12px 30px;
     border: 1px solid #dbd7d3;
-    border-radius: 8px;
-    font-size: 25px;
+    border-radius: 6px;
+    font-size: 22px;
     box-shadow: inset 0 0 11px -10px #34495e;
 }
 
@@ -109,11 +110,17 @@ nav.main-menu ul {
 section.slides {
 	text-align: center;
 	margin: 100px 0;
+	font-size: 0;
 }
 
 section.slides div {
 	display: inline-block;
 	margin: 0 65px 35px 0;
+	font-size: 18px;
+}
+
+section.slides div p {
+	margin: 10px 0 0 0;
 }
 
 section.describe,
@@ -132,8 +139,6 @@ section.content {
 section.news h1 {
 	font-size: 42px;
 }
-
-
 
 footer.page-footer {
 	min-height: 100px;
