@@ -13,6 +13,14 @@ body {
 	
 }
 
+hr {
+	color: #dbd7d3; /*для IE */
+    background-color:#dbd7d3;
+    border:0px none;
+    height:1px;
+    clear:both;
+    max-width: 700px;
+}
 
 /*--links--*/
 
@@ -47,15 +55,11 @@ a.transparent-img {
 /*--header--*/
 
 header.page-header {
-	background-image:
-        linear-gradient(0deg),
-        linear-gradient(0deg),
-        linear-gradient(135deg, #34495e 25%, transparent 25%),
-        linear-gradient(-135deg, #34495e 25%, transparent 25%);
+
 }
 
 div.logo {
-	padding: 30px 0;
+	padding: 50px 0;
 	background: #0a0a0a;
 	position: relative;
 	z-index: 10; /*чтобы меню внизу было*/
@@ -97,5 +101,45 @@ nav.main-menu ul {
 
 section.slides {
 	text-align: center;
-	margin-top: 50px;
+	margin: 100px 0;
+}
+
+section.slides div {
+	display: inline-block;
+	margin: 0 65px 35px 0;
+}
+
+section.describe,
+section.news {
+	width: 100%;
+	max-width: 650px;
+	font-size: 22px;
+	line-height: 26px;
+	margin: auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+
+section.news h1 {
+	font-size: 42px;
+}
+
+
+
+footer.page-footer {
+	min-height: 100px;
+	background-color: #1f3438;
+	margin-top: 200px; 
+}
+
+/*---*/
+
+/*--footer--*/
+
+.page-footer .copyright {
+    float: right;
+    padding: 20px 20px;
+    font-size: 12px;
+    color: #041f1e;
 }
