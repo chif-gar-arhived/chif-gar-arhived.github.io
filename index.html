@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 	<meta charset="utf-8">			
 	<title>Чиф-Гар!</title>
@@ -10,47 +10,55 @@
 	<link href ="css/normalize.css" rel="stylesheet" type="text/css">
 
 	<link href ="css/style.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
+<header class="page-header">
 
-<div class="header">
-	<h1 class="title-post">Чиф-Гар!</h1>
+	<div class="logo"><figure><a href="#" class="transparent-img"><img src="img/logo.png"></a></figure></div>
 
-	<br><br><br><br>
-	<p>Денис Ульянов&nbsp;&mdash; вокал</p>
-	<br><br><br><br>
-	<img src="img/chief-001.jpg" class="img1">
-	<br><br><br><br><br><br><br><br>
-	<p>Игорь Муханов&nbsp;&mdash; гитара</p>
+	<nav class="main-menu">
+		<ul>
+			<li><a href="#" class="item-selected">Главная</a></li>
+			<li><a href="#">Музей</a></li>
+			<li><a href="#">Блог</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	<section class="photos slides">
+		<img src="img/photo.png" alt="Евгений Башилов">
+		<img src="img/bass-01.jpg" alt="Вадим Прелов" onmouseout="this.src='img/bass-01.jpg'" onmouseover="this.src='img/bass-02.jpg'">
+		<img src="img/photo.png" alt="Людмила Овсенева">
+		<img src="img/photo.png" alt="Денис Ульянов">
+		<img src="img/photo.png" alt="Игорь Муханов">
+		<img src="img/photo.png" alt="Кирилл Зайцев">
+		<img src="img/photo.png" alt="Илья Сорокин">
+	</section>
+
+	<hr>
+
+	<section class="describe">
+		<p>Мы группа Чиф-Гар!</p>
+		<p>Поем песни о лете и зиме, о разочарованных женщинах с бокалом мартини, брутальных мужиках в сутенерских пальто и медведях велосипедистах из рабочего циркового класса.</p>
+		<p>Живем в Сергиевом Посаде. Выступаем в родном городе и часто выезжаем в другие, бывали в Пушкино и в Москве</p>
+		<p>Сцены бывают самыми разными будь это и дом культуры, и ночной клуб, опен эир или уютный квартирник.</p>
+	</section>
+
+	<hr>
+
+	<section class="news">
+		<h1>Наши мероприятия</h1>
+		<p><time datetime="2016-06-11">11 июня</time> - фестиваль "Рок за молодежь!</p>
+		<p><time datetime="2016-04-11">04 июня</time> - концерт на выставке "Музыка" Ольги Шишкиной</p>
+	</section>
+
+</main>
+
+<footer class="page-footer">
 	
-	<br><br><br><br>
-	<p>Кирилл Зайцев&nbsp;&mdash; гитара</p>
-	<br><br><br><br>
-	<p>Вадим Прелов&nbsp;&mdash; бас</p>
-	<br><br><br><br>
-	<p>Иван Чуванов&nbsp;&mdash; барабаны</p>
-	<br><br>
-</div>
-
-<div class="content">
-
-	<div class="post">
-
-			<h1 class="title-post">Тестовая запись или как мы выступали на ведьмовском шабаше<span class="hanging"></span></h1>
-
-			<h2 class="date">17.05.2016</h2>
-
-
-			<div class="text">
-				<p>
-				Гитаристу никогда не нравилось срываться с места и ехать в неизвестный город на спонтанный концерт. Была пятница тринадцатое, когда Чиф-Гару пришло приглашение выступить в д. к. "Комсомольский космос" в городе Жнец.
-				</p>
-			</div>
-			<div class="img-post"><img src="http://www.glavny.tv/sites/default/files/mainphotos/7544/v-pskove-nashlivedm-dlya-uchastiya-v-shabashe-8766.jpg">
-			</div>
-	</div>
-
-</div>
-
+</footer>
 </body>
 </html>
