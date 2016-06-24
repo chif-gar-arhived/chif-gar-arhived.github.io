@@ -183,6 +183,14 @@ section.content p.label {
 	color: grey;
 }
 
+p.citation {
+	font-style: italic;
+}
+
+.hanging {
+	margin-left: -0.5em; /*hanging punctuation*/	
+}
+
 /*---*/
 
 section.news h1 {
