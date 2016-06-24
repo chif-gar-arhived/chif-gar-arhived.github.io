@@ -170,8 +170,12 @@ section.intro {
 	font-style: italic;
 }
 
+section.content figure {
+	text-align: center;
+}
+
 section.content figure img {
-	width: 100%;
+	max-width: 100%;
 }
 
 section.content p.label {
