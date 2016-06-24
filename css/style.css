@@ -6,6 +6,7 @@
 body {
 	margin: 0;
     padding: 0;
+    height: 100%;
     font-size: 100%;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 100%;
@@ -116,11 +117,11 @@ section.slides {
 section.slides div {
 	display: inline-block;
 	margin: 0 65px 35px 0;
-	font-size: 18px;
 }
 
-section.slides div p {
+section.slides div h1 {
 	margin: 10px 0 0 0;
+	font-size: 18px;
 }
 
 section.describe,
@@ -140,15 +141,16 @@ section.news h1 {
 	font-size: 42px;
 }
 
-footer.page-footer {
-	min-height: 100px;
-	background-color: #1f3438;
-	margin-top: 200px; 
-}
-
 /*---*/
 
 /*--footer--*/
+
+footer.page-footer {
+	min-height: 100px;
+	width: 100%;
+	background-color: #1f3438;
+	margin-top: 200px; 
+}
 
 .page-footer .copyright {
     float: right;
