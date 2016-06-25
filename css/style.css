@@ -195,6 +195,12 @@ section.content figure {
 	margin-right: 5%;
 }
 
+section.content figure figcaption{
+	font-size: 16px;
+	line-height: 18px;
+	margin-top: 10px;
+}
+
 section.content figure img {
 	max-width: 100%;
 }
