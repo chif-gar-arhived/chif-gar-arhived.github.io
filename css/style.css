@@ -209,6 +209,8 @@ section.content p.label {
 	color: grey;
 }
 
+/*long quotation*/
+
 section.content blockquote {
 	font-style: italic;
 	background-color: #f2f1f0;
@@ -216,6 +218,20 @@ section.content blockquote {
 	padding: 20px 30px;
 	width: 80%;
 	max-width: 590px;
+}
+
+/*short quote*/
+
+section.content blockquote.citation { 
+	position: relative;
+	background-color: white;
+}
+
+span.quote {
+	position: absolute;	
+	font-size: 50px;
+	display: inline-block;
+	margin-top: -6px;
 }
 
 .hanging {
