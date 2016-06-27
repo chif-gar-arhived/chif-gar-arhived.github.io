@@ -4,19 +4,19 @@
 
 body {
 	margin: 0;
-    	padding: 0;
-    	height: 100%;
-    	font-size: 100%;
+    padding: 0;
+    height: 100%;
+    font-size: 100%;
 	font-family: 'PT Sans', 'Arial', sans-serif;
 }
 
 hr {
 	color: #dbd7d3; /*for IE*/
-    	background-color:#dbd7d3;
-    	border:0px none;
-    	height:1px;
+    background-color:#dbd7d3;
+    border:0px none;
+    height:1px;
 	clear:both;
-    	max-width: 700px;
+    max-width: 700px;
 }
 
 /*--links--*/
@@ -42,7 +42,9 @@ a.item-selected {
 	background-color: #dbdbdb;
 }
 
-img {vertical-align: middle; /*removes the underline under the image as a link*/}
+img {
+vertical-align: middle; /*removes the underline under the image as a link*/
+}
 
 a.transparent-img {
 	border-bottom: 0; /*removes the underline under the image as a link with transparent background*/
@@ -51,10 +53,6 @@ a.transparent-img {
 /*---*/
 
 /*--header--*/
-
-header.page-header {
-
-}
 
 div.logo {
 	padding: 50px 0;
@@ -147,7 +145,6 @@ section.news h1 {
 	font-size: 42px;
 	font-weight: bold;
 }
-
 
 /*--post--*/
 
