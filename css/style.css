@@ -129,6 +129,10 @@ section.slides div.clip-art {
 	margin: 0 65px 100px 0;		/*museum*/
 }
 
+div.container {
+	margin-left: 2%;
+	margin-right: 2%;
+}
 
 section.describe,
 section.news {
@@ -141,15 +145,14 @@ section.news {
 	margin-top: 100px;
 }
 
-div.container {
-	margin-left: 2%;
-	margin-right: 2%;
-}
-
 section.news h1 {
 	font-size: 42px;
 	line-height: 42px;
 	font-weight: bold;
+}
+
+span.update {
+	color: #f80000;
 }
 
 /*--post--*/
