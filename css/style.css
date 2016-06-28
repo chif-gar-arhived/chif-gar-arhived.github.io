@@ -155,6 +155,10 @@ span.update {
 	color: #f80000;
 }
 
+span.year {
+	font-weight: bold;
+}
+
 /*--post--*/
 
 article.post {
