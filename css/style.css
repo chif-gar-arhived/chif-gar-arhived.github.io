@@ -151,14 +151,6 @@ section.news h1 {
 	font-weight: bold;
 }
 
-span.update {
-	color: #f80000;
-}
-
-span.bold {
-	font-weight: bold;
-}
-
 /*--post--*/
 
 article.post {
@@ -259,8 +251,16 @@ span.quote {
 	margin-top: -6px;
 }
 
+/*---*/
+
+/*--typography--*/
+
 .hanging {
 	margin-left: -0.5em; /*hanging punctuation*/	
+}
+
+span.red {
+	color: #f80000;
 }
 
 /*---*/
