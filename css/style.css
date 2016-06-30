@@ -157,11 +157,11 @@ article.post {
 	/*margin: 150px 2% 150px 2%;*/
 	margin-left: 2%;
 	margin-right: 2%;
+	margin-top: 100px;
 	margin-bottom: 100px;
 }
 
 article.post:last-child {
-	margin-top: 100px;
 	margin-bottom: 150px;
 }
 
