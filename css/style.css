@@ -259,6 +259,10 @@ span.quote {
 	margin-left: -0.5em; /*hanging punctuation*/	
 }
 
+span.italic {
+	font-style: italic;
+}
+
 span.red {
 	color: #f80000;
 }
