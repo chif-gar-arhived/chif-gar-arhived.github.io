@@ -160,15 +160,16 @@ article.post {
 	margin-bottom: 100px;
 }
 
-article.post:first-child {
-	margin-top: 150px;
-
-}
-
 article.post:last-child {
 	margin-top: 100px;
 	margin-bottom: 150px;
 }
+
+
+/*article.post:first-child {
+	margin-top: 150px;
+
+}*/
 
 article.post header{
 	padding-bottom: 40px;
