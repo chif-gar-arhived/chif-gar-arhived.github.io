@@ -127,6 +127,17 @@ section.slides div h1 {
 
 /*--museum--*/
 
+article.post header.title {
+	padding-bottom: 0;
+}
+
+header.title h2 {
+	font-size: 32px;
+	line-height: 32px;
+	text-align: center;
+
+}
+
 section.slides div.clip-art {
 	margin: 0 65px 100px 0;		
 }
@@ -141,6 +152,10 @@ div.clip-art img:hover {
 	-moz-transition: transform 0.2s ease-out;
 	-o-transition: transform 0.2s ease-out;
 	transform: scale(1.1);
+}
+
+div.clip-art img:active {
+	outline: none;
 }
 
 /*--end--*/
