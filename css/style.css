@@ -25,9 +25,9 @@ a:link,
 a:visited,
 a:active {
 	text-decoration: none;
-    border-bottom: 1px solid;
-    color: #336699;
-    border-color: #a4bcd5;
+	border-bottom: 1px solid;
+	color: #336699;
+	border-color: #a4bcd5;
 
 	transition: 0.1s ease-in;
 	-webkit-transition: 0.1s ease-in;
