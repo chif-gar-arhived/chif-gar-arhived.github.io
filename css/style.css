@@ -136,7 +136,10 @@ div.clip-art img {
 }
 
 div.clip-art img:hover {
-	transition: transform 0.2s ease;
+	transition: transform 0.2s ease-out;
+	-webkit-transition: transform 0.2s ease-out;
+	-moz-transition: transform 0.2s ease-out;
+	-o-transition: transform 0.2s ease-out;
 	transform: scale(1.1);
 }
 
