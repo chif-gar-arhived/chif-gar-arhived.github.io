@@ -1,4 +1,5 @@
-/*---*/
+---*/
+
 
 /*--body--*/
 
@@ -125,9 +126,23 @@ section.slides div h1 {
 	font-size: 18px;
 }
 
+/*--museum--*/
+
 section.slides div.clip-art {
-	margin: 0 65px 100px 0;		/*museum*/
+	margin: 0 65px 100px 0;
 }
+
+div.clip-art img {
+	width: 130px;
+}
+
+div.clip-art img:hover {
+	transition: transform 0.2s ease;
+	transform: scale(1.1);
+}
+
+/*---*/
+
 
 div.container {
 	margin-left: 2%;
@@ -288,4 +303,4 @@ footer.page-footer {
 
 /*---*/
 
-/*---*/
+/*---
