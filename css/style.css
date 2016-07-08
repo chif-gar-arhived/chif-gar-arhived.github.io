@@ -1,5 +1,4 @@
----*/
-
+/*--start--*/
 
 /*--body--*/
 
@@ -51,7 +50,7 @@ a.transparent-img {
 	border-bottom: 0; /*removes the underline under the image as a link with transparent background*/
 }
 
-/*---*/
+/*--end--*/
 
 /*--header--*/
 
@@ -106,7 +105,7 @@ nav.main-menu ul {
     color: black;
 }
 
-/*---*/
+/*--end--*/
 
 /*--main--*/
 
@@ -129,7 +128,7 @@ section.slides div h1 {
 /*--museum--*/
 
 section.slides div.clip-art {
-	margin: 0 65px 100px 0;
+	margin: 0 65px 100px 0;		
 }
 
 div.clip-art img {
@@ -141,8 +140,7 @@ div.clip-art img:hover {
 	transform: scale(1.1);
 }
 
-/*---*/
-
+/*--end--*/
 
 div.container {
 	margin-left: 2%;
@@ -267,7 +265,7 @@ span.quote {
 	margin-top: -6px;
 }
 
-/*---*/
+/*--end--*/
 
 /*--typography--*/
 
@@ -283,7 +281,7 @@ span.red {
 	color: #f80000;
 }
 
-/*---*/
+/*--end--*/
 
 /*--footer--*/
 
@@ -301,6 +299,6 @@ footer.page-footer {
     color: #041f1e;
 }
 
-/*---*/
+/*--end--*/
 
-/*---
+/*--finish--*/
