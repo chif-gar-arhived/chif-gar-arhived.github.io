@@ -125,7 +125,15 @@ section.slides div {
 }
 
 img.circle {
-	border-radius: 50%;
+	border-radius: 50%;	
+}
+
+div.userpic:hover {
+	background: url(http://www.chif-gar.ru/img/bass.png) no-repeat;
+}
+
+div.userpic:hover img {
+	visibility: hidden;
 }
 
 section.slides div h1 {
