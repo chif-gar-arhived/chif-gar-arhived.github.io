@@ -154,10 +154,6 @@ div.clip-art img:hover {
 	transform: scale(1.1);
 }
 
-div.clip-art img:active {
-	outline: none;
-}
-
 /*--end--*/
 
 div.container {
