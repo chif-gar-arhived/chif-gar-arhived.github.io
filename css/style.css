@@ -28,6 +28,11 @@ a:active {
     border-bottom: 1px solid;
     color: #336699;
     border-color: #a4bcd5;
+
+	transition: 0.1s ease-in;
+	-webkit-transition: 0.1s ease-in;
+	-moz-transition: 0.1s ease-in;
+	-o-transition: 0.1s ease-in;
 }
 
 a:hover {
@@ -87,7 +92,7 @@ nav.main-menu ul {
     display: inline-block;
 }
 
-.main-menu a {
+.main-menu li a {
     display: block;
     padding: 12px 30px;
     margin-bottom: 1px;
@@ -95,14 +100,13 @@ nav.main-menu ul {
     border-radius: 6px;
     font-size: 22px;
     box-shadow: inset 0 0 11px -10px #34495e;
-
     max-width: 100%;
 }
 
 .main-menu li a:hover {
     /*background-color: #ffb833;*/
     /*background-color: #dbdbdb;*/
-    color: black;
+    color: black; 
 }
 
 /*--end--*/
@@ -135,7 +139,6 @@ header.title h2 {
 	font-size: 32px;
 	line-height: 32px;
 	text-align: center;
-
 }
 
 section.slides div.clip-art {
@@ -144,13 +147,14 @@ section.slides div.clip-art {
 
 div.clip-art img {
 	width: 130px;
+	transition: transform 0.2s ease-out;
+	-webkit-transition: 0.2s ease-out;
+	-moz-transition: 0.2s ease-out;
+	-o-transition: 0.2s ease-out;
 }
 
+
 div.clip-art img:hover {
-	transition: transform 0.2s ease-out;
-	-webkit-transition: transform 0.2s ease-out;
-	-moz-transition: transform 0.2s ease-out;
-	-o-transition: transform 0.2s ease-out;
 	transform: scale(1.1);
 }
 
