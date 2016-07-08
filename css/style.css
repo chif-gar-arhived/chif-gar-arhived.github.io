@@ -124,6 +124,10 @@ section.slides div {
 	margin: 0 65px 35px 0;
 }
 
+section.slides div img {
+	border-radius: 50%;
+}
+
 section.slides div h1 {
 	margin: 10px 0 0 0;
 	font-size: 18px;
