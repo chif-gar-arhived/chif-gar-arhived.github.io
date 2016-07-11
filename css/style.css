@@ -235,24 +235,6 @@ section.content blockquote {
 	margin: auto;
 }
 
-
-
-
-
-
-section.content div.likely {
-	width: 100%;
-	padding-top: 30px;
-	max-width: 224px;
-	margin: auto;
-	display: block;
-}
-
-
-
-
-
-
 article.post header h1 {
 	font-size: 50px;
 	line-height: 60px;
@@ -283,6 +265,15 @@ section.content figure img {
 section.content p.label {
 	font-size: 16px;
 	color: grey;
+}
+
+section.content div.likely {
+	width: 100%;
+	padding-top: 30px;
+	max-width: 650px;
+	margin: auto;
+	display: block;
+	text-align: center;
 }
 
 /*long quotation*/
