@@ -208,7 +208,6 @@ article.post:last-child {
 	margin-bottom: 150px;
 }
 
-
 /*article.post:first-child {
 	margin-top: 150px;
 
@@ -235,6 +234,24 @@ section.content blockquote {
 	line-height: 27px;
 	margin: auto;
 }
+
+
+
+
+
+
+section.content div.likely {
+	width: 100%;
+	padding-top: 30px;
+	max-width: 224px;
+	margin: auto;
+	display: block;
+}
+
+
+
+
+
 
 article.post header h1 {
 	font-size: 50px;
