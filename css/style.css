@@ -320,7 +320,7 @@ section.content div.likely {
 
 /*long quotation*/
 
-section.content blockquote {
+blockquote {
 	font-style: italic;
 	background-color: #f2f1f0;
 	/*background-color: #f5f5f5;*/
@@ -330,6 +330,12 @@ section.content blockquote {
 	-moz-box-sizing: border-box; /*for responsive design*/
 	box-sizing: border-box; /*for responsive design*/
 }
+
+/*section.describe blockquote {
+	font-style: normal;
+	background-color: #ffcf48;
+}
+*/
 
 /*short quote*/
 
@@ -359,6 +365,22 @@ span.italic {
 
 span.red {
 	color: #f80000;
+}
+
+span.red-logo {
+	color: #be1f31;
+}
+
+span.blue-logo {
+	color: #5a8bbd;
+}
+
+span.green-logo {
+	color: #2ab574;
+}
+
+span.orange-logo {
+	color: #ea8a0d;
 }
 
 /*--end--*/
