@@ -129,7 +129,24 @@ section.slides > div {
 }
 
 img.circle {
-	border-radius: 50%;	
+	border-radius: 50%;
+	/*box-shadow: 0 0 2px -1px grey;*/	
+}
+
+img.border-red {
+	box-shadow: 0 0 0 2px #be1f31;
+}
+
+img.border-blue {
+	box-shadow: 0 0 0 2px #5a8bbd;
+}
+
+img.border-green {
+	box-shadow: 0 0 0 2px #2ab574;
+}
+
+img.border-orange {
+	box-shadow: 0 0 0 2px #ea8a0d;
 }
 
 div.userpic {
@@ -166,7 +183,7 @@ section.slides div.name {
 	width: 100%;
 }
 
-section.slides div.name h1, section.slides div.name p {
+section.slides div.name h1 {
 	font-size: 18px;
 	margin-top: 10px;
 	margin-bottom: 30px;
