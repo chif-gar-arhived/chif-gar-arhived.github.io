@@ -12,10 +12,10 @@ body {
 
 hr {
 	color: #dbd7d3; /*for IE*/
-    background-color:#dbd7d3;
-    border:0px none;
-    height:1px;
-	clear:both;
+    background-color: #dbd7d3;
+    border: 0px none;
+    height: 1px;
+	clear: both;
     max-width: 700px;
 }
 
@@ -40,7 +40,7 @@ a:hover {
 	border-color: #e39e9e;
 }
 
-a.item-selected {
+.item-selected {
 	color: black;
 	text-decoration: none;
 	border-bottom: none;
@@ -106,7 +106,7 @@ nav.main-menu ul {
 .main-menu li a:hover {
     /*background-color: #ffb833;*/
     /*background-color: #dbdbdb;*/
-    color: black; 
+    color: black;
 }
 
 /*--end--*/
@@ -128,38 +128,38 @@ section.slides > div {
 	margin-left: 2.5%;
 }
 
-img.circle {
+.circle {
 	border-radius: 50%;
-	/*box-shadow: 0 0 2px -1px grey;*/	
+	/*box-shadow: 0 0 2px -1px grey;*/
 }
 
-img.border-red {
+.border-red {
 	box-shadow: 0 0 0 2px #be1f31;
 }
 
-img.border-blue {
+.border-blue {
 	box-shadow: 0 0 0 2px #5a8bbd;
 }
 
-img.border-green {
+.border-green {
 	box-shadow: 0 0 0 2px #2ab574;
 }
 
-img.border-orange {
+.border-orange {
 	box-shadow: 0 0 0 2px #ea8a0d;
 }
 
 div.userpic {
-	position:relative; 
-	margin: 0 auto; 
+	position:relative;
+	margin: 0 auto;
 	height: 150px;
 	width: 150px;
 	display: inline-block;
 }
 
 div.userpic img {
-	left: 0; 
-    position: absolute; 
+	left: 0;
+    position: absolute;
 	-moz-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -202,7 +202,7 @@ header.title h2 {
 }
 
 section.slides div.clip-art {
-	margin: 0 65px 100px 0;		
+	margin: 0 65px 100px 0;
 }
 
 div.clip-art img {
@@ -339,13 +339,13 @@ blockquote {
 
 /*short quote*/
 
-section.content blockquote.citation { 
+section.content blockquote.citation {
 	position: relative;
 	background-color: white;
 }
 
 span.quote {
-	position: absolute;	
+	position: absolute;
 	font-size: 50px;
 	display: inline-block;
 	margin-top: -6px;
@@ -356,30 +356,30 @@ span.quote {
 /*--typography--*/
 
 .hanging {
-	margin-left: -0.5em; /*hanging punctuation*/	
+	margin-left: -0.5em; /*hanging punctuation*/
 }
 
-span.italic {
+.italic {
 	font-style: italic;
 }
 
-span.red {
+.red {
 	color: #f80000;
 }
 
-span.red-logo {
+.red-logo {
 	color: #be1f31;
 }
 
-span.blue-logo {
+.blue-logo {
 	color: #5a8bbd;
 }
 
-span.green-logo {
+.green-logo {
 	color: #2ab574;
 }
 
-span.orange-logo {
+.orange-logo {
 	color: #ea8a0d;
 }
 
@@ -391,7 +391,7 @@ footer.page-footer {
 	min-height: 120px;
 	width: 100%;
 	background-color: #1f3438;
-	margin-top: 200px; 
+	margin-top: 200px;
 }
 
 footer.page-footer div.likely {
