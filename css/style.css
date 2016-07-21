@@ -40,7 +40,7 @@ a:hover {
 	border-color: #e39e9e;
 }
 
-.item-selected {
+a.item-selected {
 	color: black;
 	text-decoration: none;
 	border-bottom: none;
