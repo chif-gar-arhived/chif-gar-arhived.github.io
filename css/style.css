@@ -424,4 +424,30 @@ footer.page-footer div.likely {
 
 /*--end--*/
 
+/*--animation--*/
+
+.skater {
+	width: 100%;
+	margin-bottom: -200px;
+	overflow: hidden;
+
+	padding-left: 20px;
+	-webkit-box-sizing: border-box; /*for responsive design*/
+	-moz-box-sizing: border-box; /*for responsive design*/
+	box-sizing: border-box; /*for responsive design*/
+}
+
+.skater img {
+	animation-name: move;
+	animation-fill-mode: forwards;
+	animation-delay: 5s;
+	animation-duration: 10s;
+}
+
+@keyframes move {
+    100% {
+        transform: translateX(2000px);
+    }
+}
+
 /*--finish--*/
