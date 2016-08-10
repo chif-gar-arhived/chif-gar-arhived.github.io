@@ -355,6 +355,10 @@ span.quote {
 
 /*--typography--*/
 
+section.news p:first-of-type time {
+	color: #f80000;
+}
+
 .hanging {
 	margin-left: -0.5em; /*hanging punctuation*/
 }
@@ -363,9 +367,6 @@ span.quote {
 	font-style: italic;
 }
 
-.red {
-	color: #f80000;
-}
 
 .red-logo {
 	color: #be1f31;
@@ -430,7 +431,6 @@ footer.page-footer div.likely {
 	width: 100%;
 	margin-bottom: -200px;
 	overflow: hidden;
-
 	padding-left: 20px;
 	-webkit-box-sizing: border-box; /*for responsive design*/
 	-moz-box-sizing: border-box; /*for responsive design*/
