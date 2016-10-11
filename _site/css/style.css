@@ -57,24 +57,6 @@ a.transparent-img {
 
 /*--end--*/
 
-/*--buttons--*/
-
-div.pagination {
-	width: 100%;
-	max-width: 650px;
-	margin: auto;
-}
-
-div.pagination .pagination-item {
-	padding: 12px 30px;
-	border: 1px solid #dbd7d3;
-	border-radius: 6px;
-	box-shadow: inset 0 0 11px -10px #34495e;
-	margin-right: 15px;
-}
-
-/*--end--*/
-
 /*--header--*/
 
 div.logo {
@@ -264,6 +246,8 @@ section.news h1 {
 
 /*--post--*/
 
+
+
 article.post {
 	/*margin: 150px 2% 150px 2%;*/
 	margin-left: 2%;
@@ -280,7 +264,6 @@ article.post h1.post-title {
 	font-size: 50px;
 	line-height: 60px;
 	font-weight: bold;
-	margin-bottom: 10px;
 }
 
 article.post time {
@@ -289,8 +272,8 @@ article.post time {
 }
 
 article.post h2 {
-	padding-top: 30px;
-	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 	font-style: italic;
 	font-size: 28px;
 	line-height: 32px;
@@ -302,8 +285,7 @@ article.post h3,
 article.post h4,
 article.post p,
 article.post blockquote,
-article.post figcaption,
-article.post section.time {
+article.post figcaption {
 	width: 100%;
 	max-width: 650px;
 	font-size: 22px;
@@ -311,22 +293,64 @@ article.post section.time {
 	margin: auto;
 }
 
-article.post figure img {
-	max-width: 100%;
+
+
+/*article.post header{
+	padding-bottom: 40px;
+}*/
+
+
+/*article.post header,
+section.intro,
+section.content p,
+section.content blockquote {
+	width: 100%;
+	max-width: 650px;
+	font-size: 22px;
+	line-height: 27px;
+	margin: auto;
 }
+*/
 
 
-article.post figure {
+
+
+
+
+
+
+
+
+/*pictures*/
+
+section.content figure {
 	text-align: center;
 	margin-left: 0%;
 	margin-right: 0%;
 }
 
-article.post figcaption{
+section.content figure figcaption{
 	font-size: 16px;
 	line-height: 18px;
 	margin-top: 10px;
 }
+
+
+section.content figure img {
+	max-width: 100%;
+}
+
+
+
+
+
+
+/*section.content p.label {
+	font-size: 16px;
+	color: grey;
+}*/
+
+
 
 section.content div.likely {
 	width: 100%;
