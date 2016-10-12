@@ -303,7 +303,10 @@ article.post h4,
 article.post p,
 article.post blockquote,
 article.post figcaption,
-article.post section.time {
+article.post section.time,
+div#tag-cloud,
+div.list,
+h1.title {
 	width: 100%;
 	max-width: 650px;
 	font-size: 22px;
@@ -338,6 +341,16 @@ article.post div.likely {
 }
 
 /*--tags--*/
+
+div.container h1.title {
+	margin-top: 100px;
+	font-size: 28px;
+	font-style: italic;
+}
+
+div.container div.list {
+	margin-top: 30px;
+}
 
 div#tag-cloud {
 	margin-top: 20px;
