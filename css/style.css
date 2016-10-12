@@ -328,9 +328,9 @@ article.post figcaption{
 	margin-top: 10px;
 }
 
-section.content div.likely {
+article.post div.likely {
 	width: 100%;
-	padding-top: 30px;
+	padding-top: 40px;
 	max-width: 650px;
 	margin: auto;
 	display: block;
