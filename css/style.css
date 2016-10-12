@@ -306,7 +306,8 @@ article.post figcaption,
 article.post section.time,
 div#tag-cloud,
 div.list,
-h1.title {
+h1.title,
+aside.related {
 	width: 100%;
 	max-width: 650px;
 	font-size: 22px;
