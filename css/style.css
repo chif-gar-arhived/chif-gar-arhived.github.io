@@ -97,7 +97,12 @@ section.pagination-numbers a {
 
 /*--header--*/
 
-div.logo {
+div.kraft {
+	background-image: url("../img/kraft-paper.jpg");
+}
+
+div.logo,
+div.kraft {
 	padding: 50px 0;
 	background: #0a0a0a;
 	position: relative;
@@ -106,12 +111,18 @@ div.logo {
     width: 100%;
 }
 
-div.logo figure {
+div.kraft {
+	background-image: url("../img/kraft-paper.jpg");
+}
+
+div.logo figure,
+div.kraft figure {
 	margin: 0;
 	text-align: center;
 }
 
-div.logo figure img {
+div.logo figure img,
+div.kraft figure img {
 	max-width: 100%;
 }
 
