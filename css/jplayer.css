@@ -1,6 +1,6 @@
 body {
 	background: #f0f0f0;
-		
+
 	/*background: #151719;
 	background: #140f0b;*/
 }
@@ -149,7 +149,7 @@ div.jp-volume-bar {
 	margin-right: 2%;
 	margin-bottom: 14px;
     cursor: pointer;
-	max-width: 110px;
+	max-width: 100px;
 	width: 100%;
 	height: 8px;
 	background: url("../img/jplayer-sprite.png") 0 -14px repeat-x;

@@ -153,6 +153,13 @@ nav.main-menu ul {
     max-width: 100%;
 }
 
+.main-menu li a.item-selected {
+	// color: black;
+	// text-decoration: none;
+	// border-bottom: none;
+	background-color: #dbdbdb;
+}
+
 .main-menu li a:hover {
     /*background-color: #ffb833;*/
     /*background-color: #dbdbdb;*/
