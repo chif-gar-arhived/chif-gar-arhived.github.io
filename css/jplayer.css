@@ -180,7 +180,7 @@ div.jp-playlist ul li {
 	font-size: 22px;
 	line-height: 27px;
 	margin: auto;
-	margin-bottom: -15px;
+	/*margin-bottom: -15px;*/
 
 	/*padding: 12px 30px;
 	border: 1px solid #dbd7d3;
@@ -223,6 +223,7 @@ div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {
 
 div.jp-playlist ul li div p.discription {
 	font-size: 0;
+	display: none;
 }
 
 div.jp-playlist  {
