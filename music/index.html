@@ -12,8 +12,14 @@
 	<link href ="../css/normalize.css" rel="stylesheet" type="text/css">
 
 	<link href ="../css/style.css" rel="stylesheet" type="text/css">
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- jPlayer -->
+	<script type="text/javascript" src="../js/jquery-1.10.2.min.js" ></script>
+	<script type="text/javascript" src="../apps/jPlayer.2.6.0/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="../apps/jPlayer.2.6.0/jplayer.playlist.min.js"></script>
+	<link href="../css/jplayer.css" media="all" rel="stylesheet" />
 
 </head>
 <body>
@@ -38,22 +44,173 @@
 		<section class="content">
 
 
+			<div id="jquery_jplayer_1" class="jp-jplayer">
+			
+			</div>
+
+        	<div id="jp_container_1" class="jp-audio">
+
+            	<div class="jp-type-playlist">
+
+					<!-- Плейлист -->
+					<div class="jp-playlist">
+						<ul>
+							<li>
+							
+							</li>
+						</ul>
+					</div>
+
+					<!-- Сообщение об ошибке -->
+					<!-- <div class="jp-no-solution">
+                    	<span>Update Required</span>
+                    	To play the media you will need to either update your browser to a recent version or update your 
+                    	<a href="http://get.adobe.com/flashplayer/" target="_blank">
+                        Flash plugin
+                    	</a>.
+                	</div> -->
+
+					<!-- Панель управления -->
+					
+					<div class="container-player">
+
+			
+						<div class="jp-gui jp-interface">
+
+                    		<ul class="jp-controls">
+
+                    			<li>
+									<a href="javascript:;" class="jp-previous" tabindex="1"></a>
+								</li>
+								
+								<li>
+									<a href="javascript:;" class="jp-play" tabindex="1"></a>
+								</li>
+
+								<li>
+									<a href="javascript:;" class="jp-pause" tabindex="1"></a>
+								</li>
+
+								<li>
+									<a href="javascript:;" class="jp-next" tabindex="1"></a>
+								</li>
 
 
-		
+								<!-- Регулятор громкости -->
+
+								<div class="sound-img">
+									
+								</div>
+
+								<div class="jp-volume-bar">
+
+									<div class="jp-volume-bar-value">
+										
+									</div>
+
+								</div>
+
+
+
+
+
+								<!-- <li>
+									<label id="name-of-the-song-that-plays"></label>
+								</li> -->
+
+							</ul>
+
+
+
+							<!-- Прогресс бар -->
+
+							<div class="jp-progress">
+
+								<div class="jp-seek-bar">
+
+									<div class="jp-play-bar">
+										
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- Остаток времени -->
+
+							<div class="jp-time-holder">
+
+								<div class="jp-current-time">
+
+								</div>
+
+								<ul class="jp-controls">
+
+									<li>
+										<label id="name-of-the-song-that-plays"></label>
+									</li>
+									
+								</ul>
+
+								
+
+							</div>
+
+							
+
+
+							<!-- <div class="clear">
+                    	
+							</div> -->
+
+							<!-- Повторения и перемешивание плейлиста -->
+
+							<!-- <ul class="jp-toggles">
+
+								<li>
+									<a href="javascript:;" class="jp-shuffle" tabindex="1" title="shuffle">Перемешать</a>
+								</li>
+
+								<li>
+									<a href="javascript:;" class="jp-shuffle-off" tabindex="1" title="shuffle off">Перемешать</a>
+								</li>
+
+								<li>
+									<a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">Повторять</a>
+								</li>
+
+								<li>
+									<a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">Повторять</a>
+								</li>
+
+							</ul> -->
+
+							<div class="clear">
+								
+							</div>
+
+						</div>
+
+					</div>
+			
+				</div>
+
+			</div>
+
+
 		</section>
 
 	</article>
 
 </main>
 
-<!-- <div class="skater"><img src="../img/skater.png" alt="скейтер"></div> -->
-
-<footer class="page-footer">
+<!-- <footer class="page-footer">
 	<section class="copyright">© 2016 Чиф-Гар!<br><br>
 	Дизайн: Игорь Муханов</section>
 	<section class="copyright"></section>
-</footer>
+</footer> -->
+
+<script type="text/javascript" src="../js/playlist.js"></script><!-- Файл с плейлистом -->
 
 </body>
 </html>
