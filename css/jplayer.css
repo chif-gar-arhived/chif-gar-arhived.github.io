@@ -1,6 +1,10 @@
-/*body {
-	background: #242424;
-}*/
+body {
+
+	background: #f0f0f0;
+	
+	/*background: #151719;
+	background: #140f0b;*/
+}
 
 /*--panel--*/
 
@@ -18,7 +22,7 @@ section.content .jp-interface {
 	background-color: white;
 	margin-left: -2%;
 	margin-right: -2%;
-	border: 2px solid #dbd7d3;
+	border: 4px solid #dbd7d3;
 	box-shadow: inset 0 0 11px -10px #34495e;
 }
 
@@ -31,7 +35,7 @@ div.jp-interface ul.jp-controls {
 }
 
 div.jp-interface ul.jp-controls li {
-    display: inline-block;
+    display: inline-block;  
 }
 
 div.jp-interface ul.jp-controls li:last-child {
@@ -47,24 +51,29 @@ ul.jp-toggles li a {
 }
 
 a.jp-previous {
+	margin-right: 15px;
 	width: 28px;
 	height: 35px;
     background: url("../img/jplayer-sprite.png") -90px -38px no-repeat;
 }
 
 a.jp-play {
+	margin-left: 4px;
 	width: 26px;
 	height: 35px;
 	background: url("../img/jplayer-sprite.png") -4px -30px no-repeat;
 }
 
 a.jp-pause {
+	margin-right: 4px;
 	width: 26px;
 	height: 35px;
 	background: url("../img/jplayer-sprite.png") -32px -30px no-repeat;
 }
 
 a.jp-next {
+	margin-left: 15px;
+	margin-right: 8px;
 	width: 28px;
 	height: 35px;
     background: url("../img/jplayer-sprite.png") -60px -38px no-repeat;
@@ -74,8 +83,9 @@ label#name-of-the-song-that-plays {
 	font-size: 14px;
 }
 
+/*--toggles--*/
 
-ul.jp-toggles {
+/*ul.jp-toggles {
 	padding: 10px 15px 25px 2%;
 }
 
@@ -91,7 +101,7 @@ ul.jp-toggles li a.jp-repeat {
 ul.jp-toggles li a.jp-shuffle-off,
 ul.jp-toggles li a.jp-repeat-off {
 	color: #ea8a0d;
-}
+}*/
 
 /*--progress bar--*/
 
@@ -118,13 +128,37 @@ div.jp-play-bar {
 /*--time--*/
 
 div.jp-current-time {
-	margin: 10px 0 10px 2%;
+	margin: 10px 0 15px 2%;
 	font-size: 16px;
 }
 
 /*--volume--*/
 
+div.jp-volume-bar {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 2%;
+	margin-bottom: 34px;
+    cursor: pointer;
+	max-width: 200px;
+	width: 100%;
+	height: 8px;
+	background: url("../img/jplayer-sprite.png") 0 -14px repeat-x;
+}
 
+div.jp-volume-bar-value {
+	background: url("../img/jplayer-sprite.png") 0 0 repeat-x ;
+    height:100%;
+}
+
+div.sound-img {	
+	display: inline-block;
+	margin-left: 2%;
+	margin-bottom: 20px;
+	width: 23px;
+	height: 36px;
+	background: url("../img/sound.png") -10px -1px no-repeat;
+}
 
 /*--end--*/
 
@@ -152,9 +186,10 @@ div.jp-playlist ul li a {
 	width: 100%;
 	max-width: 650px;
 	padding: 12px 30px;
-	border: 1px solid #dbd7d3;
+	/*border: 1px solid #dbd7d3;*/
 	border-radius: 6px;
-	box-shadow: inset 0 0 11px -10px #34495e;
+	border-bottom: 0;
+	/*box-shadow: inset 0 0 11px -10px #34495e;*/
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -169,6 +204,7 @@ div.jp-playlist ul li a {
 div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {
 	background-color: #dbd7d3;
 	color: black;
+	box-shadow: inset 0 0 11px -10px #34495e;
 }
 
 /*div.jp-type-playlist div.jp-playlist li.jp-playlist-current a:before {
@@ -177,6 +213,10 @@ div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {
 
 div.jp-playlist ul li div p.discription {
 	font-size: 0;
+}
+
+div.jp-playlist  {
+	margin-bottom: 250px;
 }
 
 /*---*/
