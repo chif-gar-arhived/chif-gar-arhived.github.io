@@ -128,8 +128,18 @@ div.jp-play-bar {
 /*--time--*/
 
 div.jp-current-time {
-	margin: 10px 0 15px 2%;
+	margin: 10px 0 25px 2%;
 	font-size: 16px;
+}
+
+div.jp-time-holder ul.jp-controls {
+	/*display: inline-block;*/
+	font-size: 16px;
+	margin-left: 60px;
+	margin-top: -51px;
+	padding-bottom: 10px;
+	height: 46px;
+	/*background-color: red;*/
 }
 
 /*--volume--*/
@@ -138,9 +148,9 @@ div.jp-volume-bar {
 	display: inline-block;
 	margin-left: 10px;
 	margin-right: 2%;
-	margin-bottom: 34px;
+	margin-bottom: 14px;
     cursor: pointer;
-	max-width: 200px;
+	max-width: 110px;
 	width: 100%;
 	height: 8px;
 	background: url("../img/jplayer-sprite.png") 0 -14px repeat-x;
@@ -154,7 +164,7 @@ div.jp-volume-bar-value {
 div.sound-img {	
 	display: inline-block;
 	margin-left: 2%;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	width: 23px;
 	height: 36px;
 	background: url("../img/sound.png") -10px -1px no-repeat;
@@ -218,6 +228,5 @@ div.jp-playlist ul li div p.discription {
 div.jp-playlist  {
 	margin-bottom: 250px;
 }
-
 
 /*---*/
