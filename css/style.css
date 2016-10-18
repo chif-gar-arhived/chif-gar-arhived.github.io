@@ -97,9 +97,9 @@ section.pagination-numbers a {
 
 /*--header--*/
 
-div.kraft {
-	background-image: url("../img/kraft-paper.jpg");
-}
+// div.kraft {
+// 	background-image: url("../img/kraft-paper.jpg");
+// }
 
 div.logo,
 div.kraft {
