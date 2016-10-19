@@ -303,6 +303,10 @@ section.news h1 {
 	font-weight: bold;
 }
 
+section.news p time {
+	font-weight: bold;
+}
+
 section.news > p:first-of-type time {
 	color: #f80000;
 }
@@ -779,46 +783,53 @@ a.spoiler-links {
 
 	/* zoomed */
 
+	#magnify figure {
+		text-align: center;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
 	#magnify {
-	  display: none;
-	  position: absolute;
-	  max-width: 100%;
-	  /*height: auto;*/
-	  z-index: 9999;
+		display: none;
+		/*position: absolute;*/
+		position: fixed;
+		width: 100%;
+		z-index: 9999;
+		top: 10px;
 	}
 	 
 	#magnify img {
-	  width: 100%;
+		max-width: 100%;
 	}
 	 
 	/* --background-- */
 	#overlay {
-	  display: none; 
-	  background: #000;
-	  position: fixed;
-	  top: 0;
-	  left: 0;
-	  height: 100%;
-	  width: 100%;
-	  opacity: 0.5;
-	  z-index: 9990;
+		display: none; 
+		background: #000;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0.5;
+		z-index: 9990;
 	}
 	 
 	/* --cloused-button-- */
 	#close-popup {
-	  width: 100%;
-	  height: 100%;
-	  cursor: url('http://www.chif-gar.ru/img/minus.png'), pointer;
-	  position: absolute;
-	  top: 0;
+		width: 100%;
+		height: 100%;
+		cursor: url('http://www.chif-gar.ru/img/minus.png'), pointer;
+		position: absolute;
+		top: 0;
 	}
 	 
-	#close-popup i {  }
+	/*#close-popup i {}*/
 
 	#close-popup:hover {
-	  animation: rota 4s infinite normal;
-	  -webkit-animation-iteration-count: 1;
-	  animation-iteration-count: 1;
+		animation: rota 4s infinite normal;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
 	}
 
 /*--end--*/
