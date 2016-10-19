@@ -97,10 +97,6 @@ section.pagination-numbers a {
 
 /*--header--*/
 
-	div.kraft {
-	background-image: url("../img/kraft-paper.jpg");
-}
-
 div.logo,
 div.kraft {
 	padding: 50px 0;
@@ -111,18 +107,12 @@ div.kraft {
     width: 100%;
 }
 
-div.kraft {
-	background-image: url("../img/kraft-paper.jpg");
-}
-
-div.logo figure,
-div.kraft figure {
+div.logo figure {
 	margin: 0;
 	text-align: center;
 }
 
-div.logo figure img,
-div.kraft figure img {
+div.logo figure img {
 	max-width: 100%;
 }
 
@@ -251,21 +241,21 @@ section.slides div.name h1 {
 
 /*--museum--*/
 
-article.post header.title {
+/*article.post header.title {
 	padding-bottom: 0;
-}
+}*/
 
-header.title h2 {
+/*header.title h2 {
 	font-size: 32px;
 	line-height: 32px;
 	text-align: center;
-}
+}*/
 
-section.slides div.clip-art {
+/*section.slides div.clip-art {
 	margin: 0 65px 100px 0;
-}
+}*/
 
-div.clip-art img {
+/*div.clip-art img {
 	width: 130px;
 	transition: transform 0.2s ease-out;
 	-webkit-transition: transform 0.2s ease-out;
@@ -275,7 +265,7 @@ div.clip-art img {
 
 div.clip-art img:hover {
 	transform: scale(1.1);
-}
+}*/
 
 /*--end--*/
 
