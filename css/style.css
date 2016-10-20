@@ -43,6 +43,7 @@ a:focus,
 a::active {
 	color: #336699;
 	border-color: #a4bcd5;
+	background-color: transparent;
 }
 
 a.item-selected {
