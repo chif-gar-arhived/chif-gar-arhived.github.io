@@ -22,8 +22,7 @@ hr {
 /*--links--*/
 
 a:link,
-a:visited,
-a:active {
+a:visited {
 	text-decoration: none;
 	border-bottom: 1px solid;
 	color: #336699;
@@ -38,6 +37,12 @@ a:active {
 a:hover {
 	color: #CC0000;
 	border-color: #e39e9e;
+}
+
+a:focus,
+a::active {
+	color: #336699;
+	border-color: #a4bcd5;
 }
 
 a.item-selected {
@@ -605,15 +610,15 @@ a.spoiler-links {
 		box-sizing: border-box;
 	}
 
-	div.jp-interface ul.jp-controls li {
-	    display: inline-block;  
-	}
+		div.jp-interface ul.jp-controls li {
+		    display: inline-block;  
+		}
 
-	div.jp-interface ul.jp-controls li:last-child {
-		position: relative;
-		top: -12px;
-		padding-top: 12px;
-	}
+		div.jp-interface ul.jp-controls li:last-child {
+			position: relative;
+			top: -12px;
+			padding-top: 12px;
+		}
 
 	div.jp-interface ul.jp-controls li a,
 	ul.jp-toggles li a {
