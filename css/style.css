@@ -27,28 +27,27 @@ a:visited {
 	border-bottom: 1px solid;
 	color: #336699;
 	border-color: #a4bcd5;
-	outline: none !important;
 
-	transition: color 0.1s ease-in;
+
+	transition: color .15s ease-out;
+
+	/*transition: color 0.1s ease-in;
 	-webkit-transition: color 0.1s ease-in;
 	-moz-transition: color 0.1s ease-in;
-	-o-transition: color 0.1s ease-in;
+	-o-transition: color 0.1s ease-in;*/
 }
 
 a:hover,
-a:focus,
 a:active {
 	color: #CC0000;
 	border-color: #e39e9e;
-	outline: none !important;
-	background: transparent;
 }
 
 /*a:focus,
 a:active {
 	color: #336699;
 	border-color: #a4bcd5;
-	outline: none !important;
+	outline: none;
 }
 */
 
