@@ -38,6 +38,7 @@ a:visited {
 a:hover {
 	color: #CC0000;
 	border-color: #e39e9e;
+	outline: none;
 }
 
 /*a:focus,
