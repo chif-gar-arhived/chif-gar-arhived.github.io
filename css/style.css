@@ -51,7 +51,8 @@ a.item-selected {
 	color: black;
 	text-decoration: none;
 	border-bottom: none;
-	background-color: #dbdbdb;
+	/*background-color: #dbdbdb;*/
+	background-color: red;
 }
 
 img {
