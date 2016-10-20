@@ -37,7 +37,7 @@ a:visited {
 a:hover {
 	color: #CC0000;
 	border-color: #e39e9e;
-	background-color: transparent;
+	background-color: none;
 }
 
 /*a:focus,
