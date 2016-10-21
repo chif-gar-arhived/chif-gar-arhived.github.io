@@ -28,13 +28,10 @@ a:visited {
 	color: #336699;
 	border-color: #a4bcd5;
 
-
-	transition: color .15s ease-out;
-
-	/*transition: color 0.1s ease-in;
+	transition: color 0.1s ease-in;
 	-webkit-transition: color 0.1s ease-in;
 	-moz-transition: color 0.1s ease-in;
-	-o-transition: color 0.1s ease-in;*/
+	-o-transition: color 0.1s ease-in;
 }
 
 a:hover,
@@ -769,6 +766,25 @@ a.spoiler-links {
 
 	div.jp-playlist  {
 		margin-bottom: 250px;
+	}
+
+	/*--eror--*/
+
+	div.jp-no-solution h1 {
+			font-size: 130%;
+			line-height: 130%;
+			font-weight: bold;
+			margin-bottom:15px;
+	}
+
+	div.jp-no-solution p {
+			font-size: 100%;
+			line-height: 130%;
+	}
+
+	div.jp-no-solution {
+			margin-top: -200px;
+			margin-bottom: 250px;
 	}
 
 /*--end--*/
