@@ -19,6 +19,10 @@ hr {
     max-width: 700px;
 }
 
+.pointer {
+		cursor: pointer;
+	}
+
 /*--links--*/
 
 a,
@@ -305,9 +309,9 @@ section.news p time {
 	font-weight: bold;
 }
 
-section.news > p:first-of-type time {
+/*section.news > p:first-of-type time {
 	color: #f80000;
-}
+}*/ /*colored date*/
 
 /*--post--*/
 
@@ -558,6 +562,44 @@ a.spoiler-links {
 
 /*--animation--*/
 
+.rotate-right {
+	transform: rotate(720deg);
+	-webkit-transform: rotate(720deg);
+	-moz-transform: rotate(720deg);
+	-o-transform: rotate(720deg);
+
+	transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+	-webkit-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+	-moz-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+	-o-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;	
+}
+
+.rotate-left {
+	transform: rotate(-720deg);
+	-webkit-transform: rotate(-720deg);
+	-moz-transform: rotate(-720deg);
+	-o-transform: rotate(-720deg);
+
+	transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+	-webkit-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+	-moz-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+	-o-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;	
+}
+
+/*.rotate {
+	animation-name: rotate;
+	animation-fill-mode: forwards;
+	animation-delay: 0;
+	animation-duration: 2.5s;
+	animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(720deg);
+	}
+}*/
+
 .skater {
 	width: 100%;
 	margin-bottom: -200px;
@@ -730,6 +772,10 @@ a.spoiler-links {
 
 	/*--playlist--*/
 
+	div.jp-playlist {
+		margin-top: 50px;
+	}
+
 	div.jp-playlist ul li {
 		width: 100%;
 		max-width: 650px;
@@ -738,17 +784,17 @@ a.spoiler-links {
 		margin: auto;
 	}
 
-	div.jp-playlist ul li a {
-		display: block;
-		width: 100%;
-		max-width: 650px;
-		padding: 12px 30px;
-		border-radius: 6px;
-		border-bottom: 0;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-	}
+		div.jp-playlist ul li a {
+			display: block;
+			width: 100%;
+			max-width: 650px;
+			padding: 12px 30px;
+			border-radius: 6px;
+			border-bottom: 0;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
 
 
 	/*--the selected track--*/
