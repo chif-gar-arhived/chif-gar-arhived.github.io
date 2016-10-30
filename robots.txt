@@ -1,3 +1,1 @@
-User-agent: *
-Disallow: /
 Sitemap: http://chif-gar.ru/sitemap.xml
