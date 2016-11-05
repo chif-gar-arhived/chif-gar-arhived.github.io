@@ -3,51 +3,44 @@
 
 <url>
 <loc>http://chif-gar.ru/</loc>
-<lastmod>2016-10-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.3</priority>
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
 </url>
 
 <url>
 <loc>http://chif-gar.ru/music/</loc>
-<lastmod>2016-10-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.3</priority>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
 </url>
 
 <url>
 <loc>http://chif-gar.ru/blog/</loc>
-<lastmod>2016-10-24</lastmod>
 <changefreq>weekly</changefreq>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
 <loc>http://chif-gar.ru/contacts/</loc>
-<lastmod>2016-10-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.3</priority>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://chif-gar.ru/concerts/</loc>
-<lastmod>2016-10-24</lastmod>
 <changefreq>weekly</changefreq>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
 <loc>http://chif-gar.ru/museum/</loc>
-<lastmod>2016-10-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.3</priority>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://chif-gar.ru/job/</loc>
-<lastmod>2016-10-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.3</priority>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
 </url>
 
 </urlset>
