@@ -562,29 +562,63 @@ a.spoiler-links {
 
 /*--animation--*/
 
-.rotate-right {
-	transform: rotate(720deg);
-	-webkit-transform: rotate(720deg);
-	-moz-transform: rotate(720deg);
-	-o-transform: rotate(720deg);
+	/*--moon--*/
 
-	transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
-	-webkit-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
-	-moz-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
-	-o-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;	
-}
+	/*.rotate-right {
+		transform: rotate(720deg);
+		-webkit-transform: rotate(720deg);
+		-moz-transform: rotate(720deg);
+		-o-transform: rotate(720deg);
 
-.rotate-left {
-	transform: rotate(-720deg);
-	-webkit-transform: rotate(-720deg);
-	-moz-transform: rotate(-720deg);
-	-o-transform: rotate(-720deg);
+		transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+		-webkit-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+		-moz-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+		-o-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;	
+	}*/
 
-	transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
-	-webkit-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
-	-moz-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
-	-o-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;	
-}
+	/*.rotate-left {
+		transform: rotate(-720deg);
+		-webkit-transform: rotate(-720deg);
+		-moz-transform: rotate(-720deg);
+		-o-transform: rotate(-720deg);
+
+		transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+		-webkit-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+		-moz-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+		-o-transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;	
+	}*/
+
+	.scale {
+		animation-name: scale;
+		animation-duration: 1.2s;
+		/*animation-iteration-count: 2;*/
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-out;
+	}
+
+	@keyframes scale {
+		15% {
+			transform: scale(1.1);
+		}
+
+		100% {
+			transform: scale(1);
+		}
+	}
+
+	section.content figure.moon {
+		margin-left: 10px;
+		margin-right: 10px;
+		position: relative;
+	}
+
+	figure.moon img {
+		width: 700px;
+	}
+
+	figure.moon .position {
+		position: absolute;
+	}
 
 /*.rotate {
 	animation-name: rotate;
