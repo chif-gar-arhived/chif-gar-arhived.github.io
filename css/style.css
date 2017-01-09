@@ -32,10 +32,11 @@ a:visited {
 	color: #336699;
 	border-color: #a4bcd5;
 
-	transition: color 0.1s ease-in;
-	-webkit-transition: color 0.1s ease-in;
-	-moz-transition: color 0.1s ease-in;
-	-o-transition: color 0.1s ease-in;
+	transition-property: color, border-color;
+	transition: 0.1s ease-in;
+	-webkit-transition: 0.1s ease-in;
+	-moz-transition: 0.1s ease-in;
+	-o-transition: 0.1s ease-in;
 }
 
 a:hover,
