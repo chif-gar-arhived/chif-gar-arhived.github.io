@@ -548,6 +548,16 @@ footer.page-footer div.likely {
     clear: both;
 }
 
+section.copyright a {
+	color: #041f1e;
+	border-bottom: 0;
+}
+
+section.copyright a:hover {
+	color: #2a6478;
+	border-bottom: 0;
+}
+
 /*--end--*/
 
 /*--ajax--*/
